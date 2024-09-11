@@ -6,9 +6,9 @@ import { faBook } from '@fortawesome/free-solid-svg-icons';
 
 const Written = () => {
     return (
-        <>
+        <div className='bg-black'>
             <Navbar />
-            <div className="container mx-auto p-8">
+            <div className="container mx-auto p-8 pt-20">
                 <h1 className="text-4xl font-bold text-center text-green-500 mb-4">
                     <FontAwesomeIcon icon={faBook} className="mr-2" /> Written Exams (NDA, CDS, AFCAT)
                 </h1>
@@ -40,7 +40,7 @@ const Written = () => {
                 </section>
             </div>
             <Footer />
-        </>
+        </div>
     );
 };
 

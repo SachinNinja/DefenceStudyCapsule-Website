@@ -10,9 +10,9 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-green-900 p-4">
+        <nav className=" bg-transparent absolute top-0 z-20 w-full p-4">
             <div className="container mx-auto flex justify-between items-center">
-                <a href="#" className="text-white text-2xl font-bold">Defence study Capsule</a>
+               <img className="h-12 w-12 rounded-lg" alt="Logo" src="images/logoDSC.jpg" />
                 <div className="hidden md:flex space-x-6">
                     <a href="/" className="text-white hover:text-gray-300">
                         <FontAwesomeIcon icon={faHome} /> Home
