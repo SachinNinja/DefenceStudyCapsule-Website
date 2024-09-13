@@ -11,13 +11,16 @@ const Home = () => {
       {/* Hero Section with Transitioning Background */}
       <section className="relative h-screen bg-black">
         <div className="absolute inset-0 h-full w-full">
-          <div className="h-full w-full absolute top-0 left-0 bg-cover bg-center animate-bg-slide"></div>
+          <div className="h-full w-full absolute top-0 left-0 bg-cover bg-center animate-bg-slide bg-blend-darken " style={{ backgroundColor: "rgba(0, 0, 0, 0.6)"}}></div>
         </div>
         <div className="relative z-10 flex justify-center items-center h-full bg-black bg-opacity-70">
           <div className="text-center animate-fade-in">
-            <h1 className="text-4xl md:text-6xl font-bold text-white text-center mt-4 animate-slide-in">
+            <h1 className="text-3xl md:text-6xl text-white font-thin text-center mt-4 animate-slide-in">
               Jai Hind Future Officer
             </h1>
+            <h2 className="text-2xl md:text-5xl  text-white text-center mt-4 animate-slide-in">
+              Welcome to Defence Study Capsule
+            </h2>
           </div>
         </div>
       </section>
