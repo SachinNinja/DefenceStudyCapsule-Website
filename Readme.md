@@ -1,3 +1,3 @@
 # Defence Study Capsule Web Application 
 
-## Current deployment : https://test-dsc.netlify.app/
+## Current deployment : https://dsc.netlify.app/
