@@ -50,8 +50,8 @@ const Courses = () => {
         <div className='bg-black min-h-screen flex flex-col'>
             <Navbar />
             <div className="container mx-auto p-8 pt-20 flex-grow">
-                <h1 className="text-4xl font-bold text-center text-green-500 mb-4">
-                    <FontAwesomeIcon icon={faPlayCircle} className="mr-2" /> Courses Offered by Defense Study Capsule
+                <h1 className="text-4xl font-bold text-center text-green-500 mb-4 tracking-widest animate-slide-in">
+                    <FontAwesomeIcon icon={faPlayCircle} className="mr-2" /> Courses
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {courses.map(course => (

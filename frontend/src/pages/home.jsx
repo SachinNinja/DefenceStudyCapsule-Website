@@ -15,10 +15,10 @@ const Home = () => {
         </div>
         <div className="relative z-10 flex justify-center items-center h-full bg-black bg-opacity-70">
           <div className="text-center animate-fade-in">
-            <h1 className="text-3xl md:text-6xl text-white font-thin text-center mt-4 animate-slide-in">
+            <h1 className="text-3xl md:text-6xl text-gray-500 font-bold text-center mt-4 animate-slide-in tracking-widest">
               Jai Hind Future Officer
             </h1>
-            <h2 className="text-2xl md:text-5xl  text-white text-center mt-4 animate-slide-in">
+            <h2 className="text-2xl md:text-5xl text-gray-300 text-center mt-4 animate-slide-in tracking-widest">
               Welcome to Defence Study Capsule
             </h2>
           </div>
@@ -28,7 +28,7 @@ const Home = () => {
       {/* Latest News Section */}
       <section className="py-8 bg-gray-100">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4 animate-slide-up">
+          <h2 className="text-3xl font-bold mb-4 animate-slide-up font-mono tracking-widest">
             <FontAwesomeIcon icon={faNewspaper} className="mr-2" /> Latest News
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -47,7 +47,7 @@ const Home = () => {
       {/* Events Section */}
       <section className="py-8">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4 animate-slide-up">
+          <h2 className="text-3xl font-bold mb-4 animate-slide-up font-mono tracking-widest">
             <FontAwesomeIcon icon={faCalendarAlt} className="mr-2" /> Upcoming Events
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
