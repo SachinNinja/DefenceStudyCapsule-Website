@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
+import Chatbot from '../components/ChatBot';
 
 const Videos = () => {
 
@@ -20,6 +21,8 @@ const Videos = () => {
                     <iframe className="w-full h-64 md:h-96 lg:h-full" src="https://www.youtube.com/embed/FvvEIWzkJxE?si=lAWFHMWx1j2BJNtW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
+
+            <Chatbot/>
             <Footer />
         </div>
     );

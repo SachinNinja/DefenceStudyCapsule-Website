@@ -1,8 +1,10 @@
 import React from 'react';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
+import Chatbot from '../components/ChatBot';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay, faNewspaper, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 const Home = () => {
   return (
@@ -66,6 +68,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Chatbot />
       <Footer />
     </>
   );

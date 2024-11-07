@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldAlt } from '@fortawesome/free-solid-svg-icons';
+import Chatbot from '../components/ChatBot';
 
 const ArmedForcesOpportunities = () => {
     return (
@@ -41,6 +42,7 @@ const ArmedForcesOpportunities = () => {
                     <p>Women can join the Indian Armed Forces through various entries like CDS (OTA), NCC Special Entry, and AFCAT. Each of these entries offers opportunities for women to serve in various roles including officers in combat and support roles.</p>
                 </section>
             </div>
+            <Chatbot/>
             <Footer />
         </div>
     );

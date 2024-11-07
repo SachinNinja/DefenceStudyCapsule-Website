@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeartbeat } from '@fortawesome/free-solid-svg-icons';
+import Chatbot from '../components/ChatBot';
 
 const SSBMedicals = () => {
     return (
@@ -41,6 +42,7 @@ const SSBMedicals = () => {
                     <p>After all tests are completed, candidates go through a final review. Any medical conditions detected during the tests will be discussed, and candidates are informed of their fitness status.</p>
                 </section>
             </div>
+            <Chatbot/>
             <Footer />
         </div>
     );

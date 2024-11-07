@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
+import Chatbot from '../components/ChatBot';
 
 const Written = () => {
     return (
@@ -53,6 +54,7 @@ const Written = () => {
                     </div>
                 </section>
             </div>
+            <Chatbot/>
             <Footer />
         </div>
     );

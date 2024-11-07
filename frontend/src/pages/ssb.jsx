@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserShield } from '@fortawesome/free-solid-svg-icons';
+import Chatbot from '../components/ChatBot';
 
 const SSB = () => {
     return (
@@ -33,6 +34,7 @@ const SSB = () => {
                     <p>More Details ...</p>
                 </section>
             </div>
+            <Chatbot/>
             <Footer />
         </div>
     );

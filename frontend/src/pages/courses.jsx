@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook, faPlayCircle, faTimes } from '@fortawesome/free-solid-svg-icons';
+import Chatbot from '../components/ChatBot';
 
 const courses = [
     {
@@ -83,6 +84,7 @@ const Courses = () => {
                     </div>
                 )}
             </div>
+            <Chatbot/>
             <Footer />
         </div>
     );
